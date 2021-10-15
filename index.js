@@ -25,7 +25,7 @@ mongoose.connect(
 
 
 const productosRoutes = require("./api/Routes/Productos/producto");
-const proveedoresRoutes = require("./api/Routes/Proveedores/proveedores");
+const proveedoresRoutes = require("./api/Routes/proveedores/proveedores");
 const localesRoutes = require("./api/Routes/Locales/local");
 
 
