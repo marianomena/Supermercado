@@ -21,6 +21,9 @@ mongoose.connect(
 	console.log("conectado a la base de datos");
 }
 
+
+
+
 const productosRoutes = require("./api/Routes/Productos/producto");
 const proveedoresRoutes = require("./api/Routes/proveedores/proveedores");
 const localesRoutes = require("./api/Routes/Locales/local");
@@ -29,6 +32,7 @@ const localesRoutes = require("./api/Routes/Locales/local");
 app.use("/api/productos/", productosRoutes);
 app.use("/api/proveedores/", proveedoresRoutes);
 app.use("/api/locales/", localesRoutes);
+
 
 
 app.listen(PORT, () =>{
